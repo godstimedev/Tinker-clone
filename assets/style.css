@@ -92,7 +92,7 @@ a {
   height: 125vh;
 }
 
-.img-txt .h3 {
+.img-txt1 .h3 {
   color: #fff;
   position: absolute;
   width: 100%;
@@ -150,61 +150,54 @@ a {
   background-size: cover;
 }
 
-/* @media (max-width: 600px) {
+@media (max-width: 600px) {
   .pg-2 {
-    top: 100vh;
-    position: relative;
-    width: auto;
-    height: 125vh;
-  }
-
-  .img-txt .h3 {
-    color: #fff;
-    position: absolute;
-    width: 100%;
-    top: 40%;
-    left: 5%;
-  }
-
-  .img-txt h3 {
-    color: #fff;
-    position: absolute;
-    width: 100%;
-    top: 40%;
-    left: 5%;
+    top: 103vh;
   }
 
   .pg-2 .img4 {
     display: none;
   }
 
-  .pg-2 .img2 {
+  .pg-2 > div {
+    margin-top: 20px;
+  }
+
+  .img-txt1 .h3 {
+    color: #fff;
     position: absolute;
+    width: 100%;
+    top: 40%;
+    left: 5%;
+  }
+
+  .pg-2 .img2 {
+    position: static;
     display: block;
     background: url(../assets/images/img2.jpg) no-repeat center center;
     height: 33%;
-    width: auto;
+    width: 100%;
     background-size: cover;
   }
 
   .pg-2 .img3 {
-    position: absolute;
+    position: static;
     display: block;
     background: url(../assets/images/img3.jpg) no-repeat center center;
     height: 33%;
-    width: auto;
+    width: 100%;
     background-size: cover;
   }
 
   .pg-2 .img5 {
-    position: absolute;
+    position: static;
     display: block;
     background: url(../assets/images/img5.jpg) no-repeat center center;
     height: 33%;
-    width: auto;
+    width: 100%;
     background-size: cover;
   }
-} */
+}
 /* page 3 */
 .pg-3 {
   top: 110vh;
@@ -331,8 +324,17 @@ ul li img {
 }
 
 @media (max-width: 600px) {
+  .last-pg {
+    top: 100vh;
+    position: relative;
+  }
+
+  .features {
+    top: 15vh;
+  }
+
   .form {
-    margin-top: -80px;
+    top: 90vh;
     width: auto;
     left: 5%;
     right: 5px;
@@ -409,15 +411,17 @@ footer {
 
 @media (max-width: 600px) {
   footer {
-    top: 250vh;
+    top: 175vh;
+  }
+
+  .footer-left {
+    position: absolute;
+    width: auto;
+    gap: 15px;
   }
 
   .footer-left .logo-seal {
     display: none;
-  }
-
-  .footer-left {
-    width: auto;
   }
 
   .footer-right .subscribe {
